@@ -247,10 +247,12 @@ h4{
 .about-text p{
     color: #fcfc;
     letter-spacing: 2px;
-    line-height: 21px;
-    font-size: 20px;
     margin-bottom: 45px;
     text-align: center;
+    color: #fcfc;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 25px;
 }
 
 button{
