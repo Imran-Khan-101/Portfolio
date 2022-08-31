@@ -246,9 +246,11 @@ h4{
 }
 .about-text p{
     color: #fcfc;
-    letter-spacing: 1px;
-    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 21px;
+    font-size: 20px;
     margin-bottom: 45px;
+    text-align: center;
 }
 
 button{
@@ -260,6 +262,7 @@ button{
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
+
 }
 
 button:hover{
@@ -331,12 +334,13 @@ font-family: 'Pacifico', cursive;
 font-weight: 300;
 }
 
-.pra p{
+.para p{
     color: #fcfc;
-    font-size: 16px;
-    line-height: 27px;
+    font-size: 15px;
+    line-height: 23px;
     margin-bottom: 25px;
 }
+
 
 .card .button{
     background-color: #f9004d;
@@ -464,6 +468,6 @@ footer p:nth-child(2){
 .end{
     position: absolute;
     color: #fcfc;
-    bottom: 25px;
+    bottom: 15px;
     font-size: 14px;
 }
