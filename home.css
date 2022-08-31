@@ -246,11 +246,9 @@ h4{
 }
 .about-text p{
     color: #fcfc;
-    letter-spacing: 2px;
-    margin-bottom: 45px;
+    letter-spacing: 1px;
     text-align: center;
-    color: #fcfc;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 23px;
     margin-bottom: 25px;
 }
