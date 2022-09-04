@@ -204,11 +204,18 @@ h4{
     float: right;
     /* top: 20px; */
 }
+@media (max-width:700px){
+    .about img{
+        z-index: -1;
+    }
+}
+
 
 .about-text{
     width: 500px;
     padding: 0 1em;
 }
+
 
 .main{
     width: 1130px;
@@ -217,6 +224,13 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+@media (max-width:700px){
+    .main{
+        padding-right: 100px;
+        padding-left: 50px;
+        margin-left: 20px;
+    }
 }
 
 .about-text h2{
@@ -229,6 +243,11 @@ h4{
     text-transform: capitalize;
     margin-bottom: 20px;
 }
+@media (max-width:700px){
+    .about-text h2{
+        width: 356px;
+    }
+}
 
 .about-text h5{
     color: white;
@@ -237,13 +256,13 @@ h4{
     text-transform: capitalize;
     margin-bottom: 25px;
 }
-.about-text h5{
-    color: white;
-    letter-spacing: 2px;
-    font-size: 22px;
-    text-transform: capitalize;
-    margin-bottom: 25px;
+@media (max-width:700px){
+    .about-text h5{
+        width: 265px;
+    margin-left: 45px;
+    }
 }
+
 .about-text p{
     color: #fcfc;
     letter-spacing: 1px;
@@ -251,6 +270,11 @@ h4{
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 25px;
+}
+@media (max-width:700px){
+    .about-text p{
+        width: 320px;
+    }
 }
 
 button{
@@ -260,9 +284,16 @@ button{
     border: 2px solid transparent;
     font-weight: bold;
     padding: 13px 30px;
+    margin-left: 179px;
     border-radius: 30px;
     transition: .4s;
 
+}
+
+@media (max-width:980px){
+    button{
+        margin-left: 100px;
+    }
 }
 
 button:hover{
