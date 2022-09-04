@@ -194,15 +194,15 @@ h4{
 }
 
 .about img{
-     max-height: 670px;
-     min-height: 560px;
-     margin-top: -20px;
-     margin-right: 100px;
-     max-width: 100%;
-     /* width: 530px; */
-     margin: 0 auto;
-     float: right;
-    /* top: 20px; */
+     max-height: 730px;
+    min-height: 633px;
+    margin-top: -20px;
+    margin-right: 100px;
+    max-width: 52%;
+    /* width: 530px; */
+    margin: 0 auto;
+    float: right;
+    /* top: 20px;
 }
 
 .about-text{
