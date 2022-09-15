@@ -14,30 +14,46 @@
     background-size: cover;
     background-position: center;
     margin: 0 auto;
-} 
+}  
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 45px;  */
+    padding-left: 5%; 
+    padding-right: 5%;
+    border-bottom: 10px solid transparent;
+    transition: all .40 ease;
+}
  
-  .hero::before{
+  /* .hero::before{
     content: '';
      position: absolute;
      bottom: 0;
      width: 100%;
      height: 100px;
-      /* background: linear-gradient(to top,#1c0522,transparent);  */
+      /* background: linear-gradient(to top,#1c0522,transparent);  
      z-index: 1000;
-  } 
+  }  */
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 5%;
-    padding-right: 5%;
+     padding-top: 45px;
+     padding-left: 5%;
+    padding-right: 5%; 
     font-size: 18px;
     max-width: 100%;
+    transition: 0.3s;
+    
 }
-
-
 
 .logo{
     border-radius: 25px;
@@ -50,12 +66,16 @@ nav{
     cursor: pointer;
     line-height: 40px;
 }
-
+ 
 span{
     color: #f9004d;
     font-family: 'Josefin Sans', sans-serif;
 font-family: 'Pacifico', cursive;
 font-weight: 400;
+}
+
+ul{
+    margin-left: 150px;
 }
 
 nav ul li{
@@ -74,11 +94,33 @@ nav ul li a{
     color: white;
     text-decoration: none;
     text-transform: capitalize;
+     padding: 10px 10px; 
+    margin: 0 2px;
+    border-radius: 0.5rem;
 }
 
 nav ul li a:hover{
     color: #f9004d;
+    background-color: white;
     transition: .4s;
+
+}
+
+nav.sticky{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #191919;
+    border-bottom: 1px solid #101010;
+    transition: 0.4s;
+}
+
+#menu-icon{
+    font-size: 36px;
+    color: white;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
 }
 
 .btn{
@@ -252,9 +294,10 @@ h4{
 .about-text h5{
     color: white;
     letter-spacing: 2px;
-    font-size: 22px;
+    font-size: 23px;
     text-transform: capitalize;
     margin-bottom: 25px;
+    margin-left: 32px;
 }
 @media (max-width:700px){
     .about-text h5{
@@ -268,8 +311,8 @@ h4{
     letter-spacing: 1px;
     text-align: center;
     font-size: 16px;
-    line-height: 23px;
-    margin-bottom: 25px;
+    line-height: 25px;
+    margin-bottom: 8px;
 }
 @media (max-width:700px){
     .about-text p{
@@ -284,7 +327,7 @@ button{
     border: 2px solid transparent;
     font-weight: bold;
     padding: 13px 30px;
-    margin-left: 179px;
+    margin-left: 173px;
     border-radius: 30px;
     transition: .4s;
 
@@ -308,6 +351,10 @@ button:hover{
     padding: 100px 0px;
     display: flex;
     flex-direction: column;
+}
+
+.service h5{
+    font-family: 'Pacifico', cursive;
 }
 
 .title h2{
@@ -361,7 +408,7 @@ h5{
     font-size: 23px;
     margin-bottom: 15px;
     font-family: 'Josefin Sans', sans-serif;
-font-family: 'Pacifico', cursive;
+/* font-family: 'Pacifico', cursive; */
 font-weight: 300;
 }
 
